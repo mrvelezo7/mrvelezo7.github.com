@@ -1,0 +1,23 @@
+/*Aqui va los comentarios*/
+
+h1{
+    color: rgb(0, 81, 255);
+}
+
+.blue{
+    height: 200px;
+    width: 750px;
+    background-color: rgb(28, 13, 163)
+}
+
+#btn-pago{
+    background-color: yellowgreen;
+}
+
+td{
+    border: solid 1px;
+}
+
+h2{
+    background-color: aquamarine;
+}

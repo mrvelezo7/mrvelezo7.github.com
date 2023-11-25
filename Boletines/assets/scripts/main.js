@@ -1,7 +1,7 @@
 // let container = document.querySelector(".container");
 // console.log(container);
 
-//REcorrer una lista o arreglo
+//Recorrer una lista o arreglo
 /* let links = document.querySelectorAll("a");
 links.forEach(function(link){
     console.log(link);
@@ -32,8 +32,16 @@ links.forEach(function(link){
         animation.classList.add("animate__bounceOutLeft");
         animation.classList.add("animate__animated");
         
-        //REgresa a la pagina principal
-        location.href ='/';
+        //reducir el tiempo y se ejecuta una sola vez
+        setTimeout(function(){
+        location.href ='/Boletines'; //Regresa a la pagina principal
+        },600);
+
+        /* //reducir el tiempo y se ejecuta cada cierto tiempo
+        setInterval(function(){
+            location.href ='/'; //Regresa a la pagina principal
+        },600); */
+        
         
         return false;
     });
